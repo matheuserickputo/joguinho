@@ -58,16 +58,16 @@ function mostraPerguntas (){
 }
 
 function mostraAlternativas(){
-    for (const alternativa of perguntaAtual.alternativa){
-        const botaoAlternativa = document.createElement("button")
+    for (const pergunta of perguntaAtual.alternativa){
+        const botaoAlternativa = document.createElement('button')
         botaoAlternativa.textContent = alternativa.texto;
         botaoAlternativa.addEventListener("click", () => respostaSelecionada(pergunta));
         caixaAlternativas.appendChild(botaoAlternativa);
     }
-}]
+}
 
 function respostaSelecionada(pergunta) {
-    const afirmações = pergunta.afirmação
+    const afirmações = pergunta.afirmação;
             atual++;
             mostraPerguntas();
 }
