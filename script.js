@@ -5,7 +5,7 @@ const caixaResultado = document.querySelector('.caixa-resultado');
 const textoResultado = document.querySelector('.texto-resultado');
 
 const perguntas = [
-    
+    {
         enunciado: "no ambito social, você prefere",
         alternativas: [
             {
@@ -17,31 +17,30 @@ const perguntas = [
                 afirmação: "o crime no mundo diminui em 25%"
             }
         ],
-        {enunciado: "no ambito ambiental,você prefere",
-            alternativas: [
-                {
-                    texto: "você sabe todos as especies de animas que existem",
-                    afirmação: "metade dessas especies morrem",
-                },
-                {
-                    texto: "você acaba com o desmatamento",
-                    afirmação: "todas as plantas são toxicas para você",
-                }
-            ],},
-        {enunciado: "no ambito tecnologico,você prefere",
-            alternativas: [
-                {
-                    texto: "os robos nunca vão destruir a humanidade",
-                    afirmação: "você nunca mais poderá utilizar redes sociais",
-                },
-                {
-                    texto:" você sabe tudo sobre tecnologia ",
-                    afirmação:"você não vai ter o respeito de ninguem "
-                }
-    
-            ]
-        }
-    
+        enunciado: "no ambito ambiental,você prefere",
+        alternativas: [
+            {
+                texto: "você sabe todos as especies de animas que existem",
+                afirmação: "metade dessas especies morrem",
+            },
+            {
+                texto: "você acaba com o desmatamento",
+                afirmação: "todas as plantas são toxicas para você",
+            }
+        ],
+        enunciado: "no ambito tecnologico,você prefere",
+        alternativas: [
+            {
+                texto: "os robos nunca vão destruir a humanidade",
+                afirmação: "você nunca mais poderá utilizar redes sociais",
+            },
+            {
+                texto:" você sabe tudo sobre tecnologia ",
+                afirmação:"você não vai ter o respeito de ninguem "
+            }
+
+        ]
+    }
 ]
 
 
