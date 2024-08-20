@@ -9,8 +9,8 @@ const perguntas = [
         enunciado: "no ambito social, você prefere",
         alternativas: [
             {
-                texto: "você tem muita sorte durante toda a vida",
-                afirmação: "25% do racismo almenta",
+                texto: "você tem muita sorte durante toda a vida,",
+                afirmação: "25% do racismo almenta,",
             },
             {
                 texto: "você deve tirar a vida de 25 inocentes",
@@ -23,12 +23,12 @@ const perguntas = [
         enunciado: "no ambito ambiental,você prefere",
         alternativas: [
             {
-                texto: "você sabe todos as especies de animas que existem",
-                afirmação: "metade dessas especies morrem",
+                texto: "você sabe todos as especies de animas que existem,",
+                afirmação: "metade dessas especies morrem,",
             },
             {
-                texto: "você acaba com o desmatamento",
-                afirmação: "todas as plantas são toxicas para você",
+                texto: "você acaba com o desmatamento,",
+                afirmação: "todas as plantas são toxicas para você,",
             }
         ]
     },
@@ -36,12 +36,12 @@ const perguntas = [
         enunciado: "no ambito tecnologico,você prefere",
         alternativas: [
             {
-                texto: "os robos nunca vão destruir a humanidade",
-                afirmação: "você nunca mais poderá utilizar redes sociais",
+                texto: "os robos nunca vão destruir a humanidade,",
+                afirmação: "você nunca mais poderá utilizar redes sociais,",
             },
             {
-                texto: " você sabe tudo sobre tecnologia ",
-                afirmação: "você não vai ter o respeito de ninguem "
+                texto: " você sabe tudo sobre tecnologia,",
+                afirmação: "você não vai ter o respeito de ninguem,"
             }
 
         ]
