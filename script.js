@@ -40,18 +40,12 @@ const perguntas =[
 ]
 
 
-
-
-
-
-
-
-let atual = 0
+let atual = 0;
 let perguntaAtual;
 let historiaFinal =" ";
 
 function mostraPerguntas (){
-    perguntaAtual = perguntas[atual]
+    perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
     caixaAlternativas.textContent="";
     mostraAlternativas();
