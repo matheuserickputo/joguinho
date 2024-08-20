@@ -10,33 +10,33 @@ const perguntas = [
         alternativas: [
             {
                 texto: "você tem muita sorte durante toda a vida",
-                afirmação: "mas 25% do racismo almenta",
+                afirmação: "25% do racismo almenta",
             },
             {
                 texto: "você deve tirar a vida de 25 inocentes",
-                afirmação: "mas o crime no mundo diminui em 25%"
+                afirmação: "o crime no mundo diminui em 25%"
             }
         ],
         enunciado: "no ambito ambiental,você prefere",
         alternativas: [
             {
                 texto: "você sabe todos as especies de animas que existem",
-                afirmação: "mas metade dessas especies morrem",
+                afirmação: "metade dessas especies morrem",
             },
             {
                 texto: "você acaba com o desmatamento",
-                afirmação: "mas todas as plantas são toxicas para você",
+                afirmação: "todas as plantas são toxicas para você",
             }
         ],
         enunciado: "no ambito tecnologico,você prefere",
         alternativas: [
             {
                 texto: "os robos nunca vão destruir a humanidade",
-                afirmação: "mas voê nunca mais poderá utilizar redes sociais",
+                afirmação: "você nunca mais poderá utilizar redes sociais",
             },
             {
                 texto:" você sabe tudo sobre tecnologia ",
-                afirmação:" mas você não vai ter o respeito de ninguem "
+                afirmação:"você não vai ter o respeito de ninguem "
             }
 
         ]
