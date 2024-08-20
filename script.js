@@ -65,8 +65,8 @@ function mostraAlternativas() {
 }
 
 function respostaSelecionada(pergunta) {
-    const afirmações = pergunta.afirmação;
-    historiaFinal += afirmações=" "
+    const afirmacoes = pergunta.afirmação;
+    historiaFinal += afirmacoes + " ";
     atual++;
     mostraPerguntas();
 }
