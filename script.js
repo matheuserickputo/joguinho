@@ -16,7 +16,10 @@ const perguntas = [
                 texto: "você deve tirar a vida de 25 inocentes",
                 afirmação: "o crime no mundo diminui em 25%"
             }
-        ],
+        ]
+
+    },
+    {
         enunciado: "no ambito ambiental,você prefere",
         alternativas: [
             {
@@ -27,7 +30,9 @@ const perguntas = [
                 texto: "você acaba com o desmatamento",
                 afirmação: "todas as plantas são toxicas para você",
             }
-        ],
+        ]
+    },
+    {
         enunciado: "no ambito tecnologico,você prefere",
         alternativas: [
             {
@@ -35,8 +40,8 @@ const perguntas = [
                 afirmação: "você nunca mais poderá utilizar redes sociais",
             },
             {
-                texto:" você sabe tudo sobre tecnologia ",
-                afirmação:"você não vai ter o respeito de ninguem "
+                texto: " você sabe tudo sobre tecnologia ",
+                afirmação: "você não vai ter o respeito de ninguem "
             }
 
         ]
@@ -49,7 +54,7 @@ let perguntaAtual;
 let historiaFinal = "";
 
 function mostraPerguntas() {
-    if(atual >= perguntas.length){
+    if (atual >= perguntas.length) {
         mostraResultado();
         return;
     }
@@ -75,7 +80,7 @@ function respostaSelecionada(pergunta) {
     mostraPerguntas();
 }
 
-function mostraResultado(){
+function mostraResultado() {
     caixaPerguntas.textContent = "Em resumo, você escolheu...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = " ";
