@@ -45,6 +45,7 @@ let perguntaAtual;
 let historiaFinal = "";
 
 function mostraPerguntas() {
+    if(atual >= perguntas.length){}
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
     caixaAlternativas.textContent = "";
@@ -62,8 +63,15 @@ function mostraAlternativas() {
 
 function respostaSelecionada(pergunta) {
     const afirmações = pergunta.afirmação;
+    historiaFinal += afirmações=" "
     atual++;
     mostraPerguntas();
+}
+
+function mostraResultado(){
+    caixaPerguntas.textContent = "Em resumo, você escolheu...";
+    textoResultado.textContent = historiaFinal;
+    caixaAlternativas.textContent= " ";
 }
 
 mostraPerguntas();
