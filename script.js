@@ -1,8 +1,8 @@
-const caixaPrincipal = document.querySelector('.caixa-principal')
-const caixaPerguntas = document.querySelector('.caixa-perguntas')
-const caixaAlternativas = document.querySelector('.caixa-alternativa')
-const caixaResultado = document.querySelector('.caixa-resultado')
-const textoResultado = document.querySelector('.texto-resultado')
+const caixaPrincipal = document.querySelector('.caixa-principal');
+const caixaPerguntas = document.querySelector('.caixa-perguntas');
+const caixaAlternativas = document.querySelector('.caixa-alternativa');
+const caixaResultado = document.querySelector('.caixa-resultado');
+const textoResultado = document.querySelector('.texto-resultado');
 
 const perguntas = [
     {
@@ -32,7 +32,7 @@ const perguntas = [
         alternativas: [
             {
                 texto: "os robos nunca vão destruir a humanidade",
-                afirmação: "mas voê nunca mais poderá utilizar redes sociais"
+                afirmação: "mas voê nunca mais poderá utilizar redes sociais",
             }
 
         ]
