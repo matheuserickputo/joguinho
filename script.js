@@ -33,6 +33,10 @@ const perguntas = [
             {
                 texto: "os robos nunca vão destruir a humanidade",
                 afirmação: "mas voê nunca mais poderá utilizar redes sociais",
+            },
+            {
+                texto:" você sabe tudo sobre tecnologia ",
+                afirmação:" mas você não vai ter o respeito de ninguem "
             }
 
         ]
