@@ -9,12 +9,12 @@ const perguntas = [
         enunciado: "no ambito social, você prefere",
         alternativas: [
             {
-                texto: "você tem muita sorte durante toda a vida,mas 25% do racismo almenta,",
+                texto: "você tem muita sorte durante toda a vida,mas 25% do racismo almenta",
                 afirmação: "25% do racismo almenta,",
             },
             {
                 texto: "você deve tirar a vida de 25 inocentes,mas o crime no mundo diminui em 25%",
-                afirmação: "o crime no mundo diminui em 25%"
+                afirmação: "o crime no mundo diminui em 25%,"
             }
         ]
 
@@ -23,11 +23,11 @@ const perguntas = [
         enunciado: "no ambito ambiental,você prefere",
         alternativas: [
             {
-                texto: "você sabe todos as especies de animas que existem,mas metade das especies exittentes morrem,",
+                texto: "você sabe todos as especies de animas que existem,mas metade das especies exitentes morrem",
                 afirmação: "metade das especies exitentes morrem,",
             },
             {
-                texto: "você acaba com o desmatamento,mas todas as plantas são toxicas para você,",
+                texto: "você acaba com o desmatamento,mas todas as plantas são toxicas para você",
                 afirmação: "todas as plantas são toxicas para você,",
             }
         ]
@@ -36,12 +36,12 @@ const perguntas = [
         enunciado: "no ambito tecnologico,você prefere",
         alternativas: [
             {
-                texto: "os robos nunca vão destruir a humanidade,mas você nunca mais poderá utilizar redes sociais,",
+                texto: "os robos nunca vão destruir a humanidade,mas você nunca mais poderá utilizar redes sociais",
                 afirmação: "você nunca mais poderá utilizar redes sociais,",
             },
             {
                 texto: " você sabe tudo sobre tecnologia,mas ninguem acredita em você,",
-                afirmação: "ninguem acredita em você,"
+                afirmação: "ninguem acredita em você"
             }
 
         ]
