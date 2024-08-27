@@ -13,7 +13,7 @@ const perguntas = [
                 afirmação: "25% do racismo almenta,",
             },
             {
-                texto: "você deve tirar a vida de 25 inocentes mas o crime no mundo diminui em 25%",
+                texto: "você deve tirar a vida de 25 inocentes,mas o crime no mundo diminui em 25%",
                 afirmação: "o crime no mundo diminui em 25%"
             }
         ]
@@ -23,8 +23,8 @@ const perguntas = [
         enunciado: "no ambito ambiental,você prefere",
         alternativas: [
             {
-                texto: "você sabe todos as especies de animas que existem,mas metade dessas especies morrem,",
-                afirmação: "metade dessas especies morrem,",
+                texto: "você sabe todos as especies de animas que existem,mas metade das especies exittentes morrem,",
+                afirmação: "metade das especies exitentes morrem,",
             },
             {
                 texto: "você acaba com o desmatamento,mas todas as plantas são toxicas para você,",
