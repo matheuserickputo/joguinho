@@ -40,8 +40,8 @@ const perguntas = [
                 afirmação: "você nunca mais poderá utilizar redes sociais",
             },
             {
-                texto: " você sabe tudo sobre tecnologia,mas ninguem acredita em você",
-                afirmação: "ninguem acredita em você"
+                texto: " você sabe tudo sobre tecnologia,mas todos acham que você deve ir para um hospício",
+                afirmação: "todos acham que você deve ir para um hospício"
             }
 
         ]
