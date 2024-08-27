@@ -9,11 +9,11 @@ const perguntas = [
         enunciado: "no ambito social, você prefere",
         alternativas: [
             {
-                texto: "você tem muita sorte durante toda a vida,25% do racismo almenta,",
+                texto: "você tem muita sorte durante toda a vida,mas 25% do racismo almenta,",
                 afirmação: "25% do racismo almenta,",
             },
             {
-                texto: "você deve tirar a vida de 25 inocentes",
+                texto: "você deve tirar a vida de 25 inocentes mas o crime no mundo diminui em 25%",
                 afirmação: "o crime no mundo diminui em 25%"
             }
         ]
@@ -23,11 +23,11 @@ const perguntas = [
         enunciado: "no ambito ambiental,você prefere",
         alternativas: [
             {
-                texto: "você sabe todos as especies de animas que existem,",
-                afirmação: "metade dessas especies morrem,",
+                texto: "você sabe todos as especies de animas que existem,mas o crime no mundo diminui em 25%",
+                afirmação: "o crime no mundo diminui em 25%",
             },
             {
-                texto: "você acaba com o desmatamento,",
+                texto: "você acaba com o desmatamento,mas todas as plantas são toxicas para você,",
                 afirmação: "todas as plantas são toxicas para você,",
             }
         ]
@@ -36,11 +36,11 @@ const perguntas = [
         enunciado: "no ambito tecnologico,você prefere",
         alternativas: [
             {
-                texto: "os robos nunca vão destruir a humanidade,",
+                texto: "os robos nunca vão destruir a humanidade,mas você nunca mais poderá utilizar redes sociais,",
                 afirmação: "você nunca mais poderá utilizar redes sociais,",
             },
             {
-                texto: " você sabe tudo sobre tecnologia,",
+                texto: " você sabe tudo sobre tecnologia,mas você não vai ter o respeito de ninguem,",
                 afirmação: "você não vai ter o respeito de ninguem,"
             }
 
