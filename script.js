@@ -23,8 +23,8 @@ const perguntas = [
         enunciado: "no ambito ambiental,você prefere",
         alternativas: [
             {
-                texto: "você sabe todos as especies de animas que existem,mas o crime no mundo diminui em 25%",
-                afirmação: "o crime no mundo diminui em 25%",
+                texto: "você sabe todos as especies de animas que existem,mas metade dessas especies morrem,",
+                afirmação: "metade dessas especies morrem,",
             },
             {
                 texto: "você acaba com o desmatamento,mas todas as plantas são toxicas para você,",
@@ -40,8 +40,8 @@ const perguntas = [
                 afirmação: "você nunca mais poderá utilizar redes sociais,",
             },
             {
-                texto: " você sabe tudo sobre tecnologia,mas você não vai ter o respeito de ninguem,",
-                afirmação: "você não vai ter o respeito de ninguem,"
+                texto: " você sabe tudo sobre tecnologia,mas ninguem acredita em você,",
+                afirmação: "ninguem acredita em você,"
             }
 
         ]
