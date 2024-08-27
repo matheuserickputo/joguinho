@@ -37,7 +37,7 @@ const perguntas = [
         alternativas: [
             {
                 texto: "os robos nunca vão destruir a humanidade,mas você nunca mais poderá utilizar redes sociais",
-                afirmação: "você nunca mais poderá utilizar redes sociais,",
+                afirmação: "você nunca mais poderá utilizar redes sociais",
             },
             {
                 texto: " você sabe tudo sobre tecnologia,mas ninguem acredita em você",
