@@ -9,7 +9,7 @@ const perguntas = [
         enunciado: "no ambito social, você prefere",
         alternativas: [
             {
-                texto: "você tem muita sorte durante toda a vida,25% do racismo almenta,",
+                texto: "você tem muita sorte durante toda a vida,"<p>"25% do racismo almenta,",
                 afirmação: "25% do racismo almenta,",
             },
             {
